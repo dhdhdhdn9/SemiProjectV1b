@@ -11,11 +11,12 @@
     <body>
         <div id = "wrap">
         <%@ include file="/layout/header.jsp" %>
-        </div>
         
         <div id = "container"></div>
         
         <%@ include file="/layout/footer.jsp" %>
+        
+        </div>
         
     </body>
 </html>
