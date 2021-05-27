@@ -75,8 +75,28 @@ td:nth-child(2) {white-space: nowrap; overflow: hidden;
 .cpage {font-weight: bold; color: orange; font-size: 25px;}
 
 
-/* view */
 
+
+
+/* write */
+#boardfrm {width: 600px; margin: 0 auto; padding-top: 50px; }
+#boardfrm div {margin-bottom:10px; }
+#boardfrm div label {font-weight: bold; display: inline-block; width:120px; 
+					text-align: right;}
+#contents {display: inline-block; width: 450px; height:150px;}
+/* div:nth-child(3) > label {vertical-align: top;} */
+.dragup {vertical-align: top;}
+
+
+/* view */
+#view {width: 600px; margin: 0 auto; padding-top: 50px; }
+#view div {margin-bottom:20px;}
+#view div label {font-weight: bold; display: inline-block; width:120px; 
+					text-align: right;}
+#view div span {border:1px solid silver; padding:5px}
+.contents {display: inline-block; width: 400px; height:350px;}
+/* div:nth-child(3) > label {vertical-align: top;} */
+.dragup {vertical-align: top;}
 
 
 
